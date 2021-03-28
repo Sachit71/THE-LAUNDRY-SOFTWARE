@@ -22,6 +22,13 @@ def clothes_count():
     Pyjama=int(Pyjama)##
     pyautogui.press('tab')#
     ##################################################################################
+
+    Bedspreads=pyautogui.prompt('No. of Beadspreads:')
+    pyautogui.write(Beadspreads,interval=0.24)####
+    Beadspreads=int(Beadspreads)
+    pyautogui.press('tab')#
+
+   ##################################################################################
     Shirts=pyautogui.prompt('No. of shirts:')#######
     pyautogui.write(Shirts,interval=0.24)
     Shirts=int(Shirts)
@@ -47,6 +54,7 @@ def clothes_count():
     Towel=int(Valli)
     pyautogui.press('tab')
 ####################################################################################
+
 clothes_count()
 ####################################################################################
 def rep():
