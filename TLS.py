@@ -68,6 +68,7 @@ def rep():
     pyautogui.press('left')
     pyautogui.press('left')
     pyautogui.press('left')
+    pyautogui.press('left')
 ####################################################################################
 rep()
 clothes_count()
